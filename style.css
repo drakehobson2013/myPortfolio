@@ -7,8 +7,9 @@ body{
 }
 
 :root{
-    --color-primary: #00000013;
-    --color-secondary: rgba(255, 192, 203, 0.842);
+    --color-primary: blanchedalmond;
+    --color-secondary: hotpink;
+    --color-info: blanchedalmond;
     --color-border: #ffffff34;
     --font-staat: 'Staatliches', cursive;
     --font-os:  'Oswald', sans-serif;
@@ -18,8 +19,9 @@ body{
 /* global classes */
 .myName{
     color: blanchedalmond;
-    text-shadow: black 4px 4px;
+    text-shadow: black 2px 2px;
 }
+
 .font-staat{
     font: normal 400 18px var(--font-staat);
 }
@@ -64,6 +66,14 @@ body{
 #header nav{
     height: 100vh;
 }
+
+.primary-nav{
+    background-image: linear-gradient(rgba(255, 235, 205, 0.657), rgba(255, 105, 180, 0.637), rgba(0, 0, 0, 0.692));
+}
+
+.description{
+    color: black;
+}
 #header .site-title .navbar-brand{
     letter-spacing: 2px;
     color: var(--color-secondary);
@@ -80,7 +90,7 @@ body{
 }
 
 #header .toggle-button{
-    background: none;
+    background: rgba(73, 49, 49, 0.534);
     color: var(--color-primary);
     position: fixed;
     top: 25px;
@@ -132,4 +142,9 @@ body{
     }
 }
 
+/* @media screen and (max-width: 576px){
+    #navBar{
+        bg:var(--color-info)
+    }
+} */
 /* #site-main */
