@@ -22,6 +22,10 @@ body{
     text-shadow: black 2px 2px;
 }
 
+#projects{
+    background-image: repeating-linear-gradient(blanchedalmond, hotpink,black);
+}
+
 .font-staat{
     font: normal 400 18px var(--font-staat);
 }
@@ -141,10 +145,3 @@ body{
         z-index:0;
     }
 }
-
-/* @media screen and (max-width: 576px){
-    #navBar{
-        bg:var(--color-info)
-    }
-} */
-/* #site-main */
