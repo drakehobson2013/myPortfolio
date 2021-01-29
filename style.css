@@ -22,7 +22,8 @@ body{
     text-shadow: black 2px 2px;
 }
 
-#projects{
+
+#SkillsAndProjects{
     background-image: repeating-linear-gradient(blanchedalmond, hotpink,black);
 }
 
@@ -134,6 +135,7 @@ body{
     background: url(./assets/Author.jpg) no-repeat;
     background-size: 100%;
     background-position: 50% 0;
+    
 }
 
 
@@ -145,3 +147,24 @@ body{
         z-index:0;
     }
 }
+div#carousel{
+    width: 50%;
+    margin: auto;
+}
+
+div.jumbotron{
+    background: blanchedalmond;
+    
+    
+}
+
+div.jumbotron h2{
+    color: black;
+    text-shadow: crimson 1px 1px;
+}
+div.jumbotron h4{
+    color: black;
+    text-shadow: crimson 1px 1px;
+}
+
+
