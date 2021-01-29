@@ -7,9 +7,9 @@ body{
 }
 
 :root{
-    --color-primary: blanchedalmond;
+    --color-primary: rgb(255, 255, 255);
     --color-secondary: hotpink;
-    --color-info: blanchedalmond;
+    --color-info: rgb(255, 255, 255);
     --color-border: #ffffff34;
     --font-staat: 'Staatliches', cursive;
     --font-os:  'Oswald', sans-serif;
@@ -18,13 +18,13 @@ body{
 
 /* global classes */
 .myName{
-    color: blanchedalmond;
+    color: rgb(253, 253, 253);
     text-shadow: black 2px 2px;
 }
 
 
 #SkillsAndProjects{
-    background-image: repeating-linear-gradient(blanchedalmond, hotpink,black);
+    background-image: repeating-linear-gradient(rgb(255, 255, 255), hotpink,black);
 }
 
 .font-staat{
@@ -73,7 +73,7 @@ body{
 }
 
 .primary-nav{
-    background-image: linear-gradient(rgba(255, 235, 205, 0.657), rgba(255, 105, 180, 0.637), rgba(0, 0, 0, 0.692));
+    background-image: linear-gradient(rgba(255, 255, 255, 0.657), rgba(255, 105, 180, 0.637), rgba(0, 0, 0, 0.692));
 }
 
 .description{
@@ -153,18 +153,18 @@ div#carousel{
 }
 
 div.jumbotron{
-    background: blanchedalmond;
+    background: rgba(255, 255, 255, 0.671);
     
     
 }
 
 div.jumbotron h2{
     color: black;
-    text-shadow: crimson 1px 1px;
+    text-shadow: hotpink 1px 1px;
 }
 div.jumbotron h4{
     color: black;
-    text-shadow: crimson 1px 1px;
+    text-shadow: hotpink 1px 1px;
 }
 
 
